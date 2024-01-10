@@ -10,7 +10,15 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" title={"Mon porte folio: Sontag Thomas"}>
+    <head>
+        <meta
+            name="description"
+            content="Mary's simple recipe for maple bacon donuts
+           makes a sticky, sweet treat with just a hint
+           of salt that you'll keep coming back for."></meta>
+
+    </head>
       <body>
         <Navbar />
         <main>{children}</main>
