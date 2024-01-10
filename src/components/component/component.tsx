@@ -3,64 +3,65 @@
  * @see https://v0.dev/t/tXb1wW7bXDP
  */
 import { CardTitle, CardDescription, CardContent, Card } from "@/components/ui/card"
+import { JSX, SVGProps } from "react"
 
 export function Component() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 md:p-6 min-h-screen">
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <ComponentIcon className="w-16 h-16" />
-          <CardTitle>React</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <CodepenIcon className="w-16 h-16" />
-          <CardTitle>Node.js</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <PiIcon className="w-16 h-16" />
-          <CardTitle>Python</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <BirdIcon className="w-16 h-16" />
-          <CardTitle>Django</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <WindIcon className="w-16 h-16" />
-          <CardTitle>Tailwind CSS</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <DatabaseIcon className="w-16 h-16" />
-          <CardTitle>MongoDB</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <DatabaseIcon className="w-16 h-16" />
-          <CardTitle>PostgreSQL</CardTitle>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-center gap-4 p-6">
-          <ContainerIcon className="w-16 h-16" />
-          <CardTitle>Docker</CardTitle>
-        </CardContent>
-      </Card>
-    </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 md:p-6 min-h-screen">
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <ComponentIcon className="w-16 h-16"/>
+            <CardTitle>React</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <CodepenIcon className="w-16 h-16"/>
+            <CardTitle>Node.js</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <PiIcon className="w-16 h-16"/>
+            <CardTitle>Python</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <BirdIcon className="w-16 h-16"/>
+            <CardTitle>Django</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <WindIcon className="w-16 h-16"/>
+            <CardTitle>Tailwind CSS</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <DatabaseIcon className="w-16 h-16"/>
+            <CardTitle>MongoDB</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <DatabaseIcon className="w-16 h-16"/>
+            <CardTitle>PostgreSQL</CardTitle>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-4 p-6">
+            <ContainerIcon className="w-16 h-16"/>
+            <CardTitle>Docker</CardTitle>
+          </CardContent>
+        </Card>
+      </div>
   )
 }
 
 
-function ComponentIcon(props) {
+function ComponentIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -83,7 +84,7 @@ function ComponentIcon(props) {
 }
 
 
-function CodepenIcon(props) {
+function CodepenIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -107,7 +108,7 @@ function CodepenIcon(props) {
 }
 
 
-function PiIcon(props) {
+function PiIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -129,7 +130,7 @@ function PiIcon(props) {
 }
 
 
-function BirdIcon(props) {
+function BirdIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -154,7 +155,7 @@ function BirdIcon(props) {
 }
 
 
-function WindIcon(props) {
+function WindIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -176,7 +177,7 @@ function WindIcon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -198,7 +199,7 @@ function DatabaseIcon(props) {
 }
 
 
-function ContainerIcon(props) {
+function ContainerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
