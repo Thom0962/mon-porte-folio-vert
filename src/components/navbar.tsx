@@ -11,13 +11,13 @@ export default function Component() {
             </div>
             <nav className="space-x-4">
                 <Link legacyBehavior href="/">
-                    <a className="text-gray-500">Accueil</a>
+                    <a className="text-white">Accueil</a>
                 </Link>
                 <Link legacyBehavior href="/competence">
-                    <a className="text-gray-500">Mes compétences</a>
+                    <a className="text-white">Mes compétences</a>
                 </Link>
                 <Link legacyBehavior href="/project">
-                    <a className="text-gray-500">Mes projets</a>
+                    <a className="text-white">Mes projets</a>
                 </Link>
             </nav>
         </header>
