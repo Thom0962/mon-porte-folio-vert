@@ -20,7 +20,7 @@ export default function Home() {
                     </div>
                     <div className="w-full md:w-1/2">
                         <h2 className="text-2xl font-bold mb-4">Bonjour, je m&apos;appelle Sontag Thomas</h2>
-                        <p className="text-lg text-gray-400">
+                        <p className="text-lg text-white">
                             Je suis développeur en informatique. Actuellement en alternance chez Be Activ IT, je suis également étudiant en BUT informatique à l&apos;IUT de Lens.
                             <br></br><br></br>
                             Au cours de ma formation, j&apos;ai acquis une solide base en développement logiciel et j&apos;ai eu l&apos;opportunité de mettre en pratique mes connaissances sur des projets concrets.
